@@ -1,28 +1,26 @@
 package com;
-import java.beans.Statement;
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
 
 public class DBConnector {
 
-	Connection con;
-	private String url;
-	private String user;
-	private String pass;
-	public Connection DBConnect(String url, String user, String pass) throws ClassNotFoundException
+	public Connection DBConnect() throws ClassNotFoundException
 	{
-		this.url = url;
-		this.user = user;
-		this.pass = pass;
+		String url="jdbc:mysql://localhost:3306/";
+		String db = "IR";
+		String user = "dhawk";
+		String pass = "temppass";
+		String driver = "com.mysql.jdbc.Driver";
+		Connection con = null;
 		try {
-			Connection con= DriverManager.getConnection(url,user,pass);
-		} catch (SQLException e) {
-			System.out.println("Connection Coulnot be established");
+			Class.forName(driver);
+			con= DriverManager.getConnection(url + db, user, pass);
+			if (con == null)
+				System.out.println("Connection not establised");
+			return con;
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return con;
-		
+		return null;
 	}
 }

@@ -16,7 +16,7 @@
 		<div id="top">
 			<h1><a href="#">IR Investigator</a></h1>
 			<div id="top-navigation">
-				Welcome <a href="#"><strong>Administrator</strong></a>
+				<a href="#"><strong>IR TEAM</strong></a>
 				<span>|</span>
 				<a href="#">Help</a>
 				<a href="#">About</a>

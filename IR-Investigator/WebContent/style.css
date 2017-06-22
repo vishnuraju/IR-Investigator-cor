@@ -22,8 +22,8 @@ textarea { overflow:hidden; }
 
 a img { border:0; }
 
-a { color:#ba4c32; text-decoration: underline; cursor:pointer; }
-a:hover { color:#8d341f; text-decoration: none;}
+a { color:#000000; text-decoration: underline; cursor:pointer; }
+a:hover { color:#000000; text-decoration: none;}
 
 .left, .alignleft { float:left; display:inline; }
 .right, .alignright { float:right; display:inline; }

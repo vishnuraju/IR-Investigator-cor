@@ -1,13 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<title>Free CSS template by ChocoTemplates.com</title>
 	<link rel="stylesheet" href="/IR-Investigator/style.css" type="text/css" media="all" />
 </head>
-
 <body>
 <!-- Header -->
 <div id="header">
@@ -16,7 +14,7 @@
 		<div id="top">
 			<h1><a href="#">IR Investigator</a></h1>
 			<div id="top-navigation">
-				Welcome <a href="#"><strong>Administrator</strong></a>
+				<a href="#"><strong>IR TEAM</strong></a>
 				<span>|</span>
 				<a href="#">Help</a>
 				<a href="#">About</a>
